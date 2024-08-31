@@ -159,4 +159,20 @@ group by pizza_types.category order by revenue desc;
 
 RESULT:
 
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/379ca19c48d6d09ca59fa20064249d3fc9375830/pizza_sales/Screenshot%202024-08-31%20201019.png)
+
+Q12 -- Analyze the cumulative revenue generated over time.
+select order_date ,
+sum(revenue) over(order by order_date) as cum_revenue
+from 
+(select orders.order_date,
+sum(order_details.quantity * pizzas.price) as revenue
+from order_details join pizzas
+on order_details.pizza_id = pizzas.pizza_id
+join orders
+on orders.order_id = order_details.order_id
+group by orders.order_date) as sales  ;
+
+RESULT:
+
 
