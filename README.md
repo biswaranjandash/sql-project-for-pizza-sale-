@@ -88,4 +88,4 @@ ORDER BY quantity DESC;
 
 RESULT:
 
-
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/c9ad8c29cf19e1d06415d55d7507e95ad89bed9a/pizza_sales/Screenshot%202024-08-31%20195334.png)
