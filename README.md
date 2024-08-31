@@ -35,4 +35,20 @@ LIMIT 1;
 RESULT:
 ![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/6c9b43234aedc9172a2dfa334ded7905d7d35601/pizza_sales/Screenshot%202024-08-31%20193910.png)
 
+Q4 -- Identify the most common pizza size ordered.
+
+SELECT 
+    pizzas.size,
+    COUNT(order_details.order_details_id) AS order_count
+FROM
+    pizzas
+        JOIN
+    order_details ON pizzas.pizza_id = order_details.pizza_id
+GROUP BY pizzas.size
+ORDER BY order_count DESC;
+
+RESULT:
+
+
+
 
