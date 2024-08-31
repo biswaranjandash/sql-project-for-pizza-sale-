@@ -100,3 +100,5 @@ GROUP BY HOUR(order_time);
 
 RESULT:
 
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/984b5167ec941a96405916cd75248c3459212702/pizza_sales/Screenshot%202024-08-31%20195853.png)
+
