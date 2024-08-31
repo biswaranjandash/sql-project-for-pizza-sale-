@@ -194,6 +194,8 @@ where rn <=3 ;
 
 RESULT:
 
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/5dc0ac3254f2ad6eb0df75a0a3695e6242fef97b/pizza_sales/Screenshot%202024-08-31%20211012.png)
+
 
 
 
