@@ -70,5 +70,6 @@ LIMIT 5;
 
 RESULT:
 
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/5e601eae2c3f4f608e06cbfc5fdc22db1d8b202c/pizza_sales/Screenshot%202024-08-31%20195115.png)
 
 
