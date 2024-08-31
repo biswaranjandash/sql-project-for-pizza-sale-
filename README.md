@@ -102,3 +102,10 @@ RESULT:
 
 ![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/984b5167ec941a96405916cd75248c3459212702/pizza_sales/Screenshot%202024-08-31%20195853.png)
 
+Q8 -- Join relevant tables to find the category-wise distribution of pizzas.
+
+select category , count(name) from pizza_types
+group by category;
+
+RESULT:
+
