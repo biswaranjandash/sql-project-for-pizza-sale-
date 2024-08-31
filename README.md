@@ -20,5 +20,5 @@ FROM
     pizzas ON pizzas.pizza_id = order_details.pizza_id
     
 RESULT:
-![Image Alt]()
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/2a18337a6b0029c1be0f8c00a3b5cae4fd4eb0e8/pizza_sales/Screenshot%202024-08-31%20192622.png)
 
