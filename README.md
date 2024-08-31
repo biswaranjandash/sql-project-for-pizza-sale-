@@ -139,5 +139,24 @@ group by  pizza_types.name order by revenue desc limit 3 ;
 
 RESULT:
 
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/348139bb2f22abda8bf66e2471459e97ed68b033/pizza_sales/Screenshot%202024-08-31%20200759.png)
+
+Q11 -- Calculate the percentage contribution of each pizza type to total revenue.
+
+select pizza_types.category,
+round(sum(order_details.quantity*pizzas.price) / (SELECT 
+    ROUND(SUM(order_details.quantity * pizzas.price),
+            2) AS total_sales
+FROM
+    order_details
+        JOIN
+    pizzas ON pizzas.pizza_id = order_details.pizza_id) * 100,2) as revenue
+from pizza_types join pizzas
+on pizza_types.pizza_type_id = pizzas.pizza_type_id
+join order_details 
+on order_details.pizza_id = pizzas.pizza_id
+group by pizza_types.category order by revenue desc;
+
+RESULT:
 
 
