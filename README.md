@@ -175,4 +175,6 @@ group by orders.order_date) as sales  ;
 
 RESULT:
 
+https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/8ae0fa4a8b23d3402590e78d00b33d0cafc810b2/pizza_sales/Q12.csv
+
 
