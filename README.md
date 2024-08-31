@@ -48,7 +48,7 @@ GROUP BY pizzas.size
 ORDER BY order_count DESC;
 
 RESULT:
-
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/1e40ac91f2fca84dae843ce49dbef6fe1f2b3196/pizza_sales/Screenshot%202024-08-31%20194440.png)
 
 
 
