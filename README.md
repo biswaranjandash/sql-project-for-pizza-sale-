@@ -125,4 +125,19 @@ FROM
 
 RESULT:
 
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/3fdab11a8e6e9b144d806c7044de7c007beb2e18/pizza_sales/Screenshot%202024-08-31%20200512.png)
+
+Q10 -- Determine the top 3 most ordered pizza types based on revenue.
+
+select pizza_types.name ,
+sum(order_details.quantity * pizzas.price) as revenue
+from pizza_types join pizzas
+on pizzas.pizza_type_id = pizza_types.pizza_type_id
+join order_details
+on order_details.pizza_id = pizzas.pizza_id
+group by  pizza_types.name order by revenue desc limit 3 ;
+
+RESULT:
+
+
 
