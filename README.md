@@ -33,4 +33,6 @@ ORDER BY pizzas.price DESC
 LIMIT 1;
 
 RESULT:
-![Image Alt].(https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/6c9b43234aedc9172a2dfa334ded7905d7d35601/pizza_sales/Screenshot%202024-08-31%20193910.png)
+![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/6c9b43234aedc9172a2dfa334ded7905d7d35601/pizza_sales/Screenshot%202024-08-31%20193910.png)
+
+
