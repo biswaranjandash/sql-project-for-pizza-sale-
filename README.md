@@ -89,3 +89,14 @@ ORDER BY quantity DESC;
 RESULT:
 
 ![Image Alt](https://github.com/biswaranjandash/sql-project-for-pizza-sale-/blob/c9ad8c29cf19e1d06415d55d7507e95ad89bed9a/pizza_sales/Screenshot%202024-08-31%20195334.png)
+
+Q7 -- Determine the distribution of orders by hour of the day.
+
+SELECT 
+    HOUR(order_time), COUNT(order_id)
+FROM
+    orders
+GROUP BY HOUR(order_time);
+
+RESULT:
+
