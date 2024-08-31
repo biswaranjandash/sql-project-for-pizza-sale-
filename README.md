@@ -6,4 +6,5 @@ FROM
     orders;
 
 
+![Alt text](pizza_sales/Screenshot 2024-08-31 184434.png)
 
